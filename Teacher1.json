@@ -1,0 +1,32 @@
+[
+  {
+    "firstName": "Bernie",
+    "lastName": "Yeater",
+    "fullName": "Bernie Yeater"
+  },
+  {
+    "firstName": "Becka",
+    "lastName": "Yeater",
+    "fullName": "Becka Yeater"
+  },
+  {
+    "firstName": "Fred",
+    "lastName": "FlintStone",
+    "fullName": "Fred Flintstone"
+  },
+  {
+    "firstName": "Kelsey",
+    "lastName": "Smith",
+    "fullName": "Kelsey Smith"
+  },
+  {
+    "firstName": "Tom",
+    "lastName": "Brown",
+    "fullName": "Tom Brown"
+  },
+  {
+    "firstName": "Tom",
+    "lastName": "Smith",
+    "fullName": "Tom Smith"
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "studentId": 0,
+    "firstName": "Bernie",
+    "lastName": "Yeater",
+    "grade": "10",
+    "HourId": [
+      "Business",
+      "English",
+      "Business",
+      "English",
+      "Math",
+      "English"
+    ],
+    "HourDescription": [
+      "Business Ethics",
+      "Freshman English Course",
+      "Business Ethics",
+      "Freshman English Course",
+      "Senior Calculus",
+      "Freshman English Course"
+    ]
+  },
+  {
+    "studentId": 1,
+    "firstName": "Becca",
+    "lastName": "Yeater",
+    "grade": "11",
+    "HourId": [
+      "English",
+      "English",
+      "Business",
+      "History",
+      "Science",
+      "Pys Ed"
+    ],
+    "HourDescription": [
+      "American Literature",
+      "Freshman English Course",
+      "Business Ethics",
+      "History of Asia",
+      "Introduction to Physical Science",
+      "Varsity Volley Ball"
+    ]
+  },
+  {
+    "studentId": 2,
+    "firstName": "Fred",
+    "lastName": "Flintstone",
+    "grade": "12",
+    "HourId": [
+      "Music",
+      "Business",
+      "300",
+      "400",
+      "500",
+      "600"
+    ],
+    "HourDescription": [
+      "Varsity Jazz Band",
+      "Introduction to Business",
+      "c333",
+      "c444",
+      "c555",
+      "c666"
+    ]
+  },
+  {
+    "studentId": 3,
+    "firstName": "Andrew",
+    "lastName": "Yeater",
+    "grade": "9",
+    "HourId": [
+      "English",
+      "200",
+      "300",
+      "400",
+      "500",
+      "600"
+    ],
+    "HourDescription": [
+      "Freshman English Course",
+      "c222",
+      "c333",
+      "c444",
+      "c555",
+      "c666"
+    ]
+  },
+  {
+    "studentId": 4,
+    "firstName": "Bernie",
+    "lastName": "Yeater",
+    "grade": "10",
+    "HourId": [
+      "",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "HourDescription": [
+      "",
+      "c2",
+      "c3",
+      "c4",
+      "c5",
+      "c6"
+    ]
+  },
+  {
+    "studentId": 5,
+    "firstName": "Liz",
+    "lastName": "Brown",
+    "grade": "9",
+    "HourId": [
+      "History",
+      "English",
+      "History",
+      "English",
+      "Math",
+      "Pys Ed"
+    ],
+    "HourDescription": [
+      "History of Asia",
+      "Freshman English Course",
+      "History of Asia",
+      "Freshman English Course",
+      "Senior Calculus",
+      "Varsity Football"
+    ]
+  },
+  {
+    "studentId": 6,
+    "firstName": "Becca",
+    "lastName": "Yeater",
+    "grade": "11",
+    "HourId": [
+      "English",
+      "English",
+      "History",
+      "Math",
+      "Music",
+      "English"
+    ],
+    "HourDescription": [
+      "American Literature",
+      "Freshman English Course",
+      "History of Asia",
+      "Senior Calculus",
+      "Freshman Jazz Band",
+      "Freshman English Course"
+    ]
+  }
+]

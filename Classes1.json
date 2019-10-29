@@ -1,0 +1,152 @@
+[
+  {
+    "classDept": "English",
+    "classID": "ENG101",
+    "classDescription": "Freshman English Course",
+    "classTeacher": "Fred Stone"
+  },
+  {
+    "classDept": "Computer Information",
+    "classID": "CIS101",
+    "classDescription": "Intro to Comptuer Programming",
+    "classTeacher": "Tom Smith"
+  },
+  {
+    "classDept": "Music",
+    "classID": "MUS-101",
+    "classDescription": "Freshman Music",
+    "classTeacher": "Andy Shmit"
+  },
+  {
+    "classDept": "English",
+    "classID": "ENG-102",
+    "classDescription": "American Literature",
+    "classTeacher": "Holly Stone"
+  },
+  {
+    "classDept": "Music",
+    "classID": "MUS-104",
+    "classDescription": "Varsity Jazz Band",
+    "classTeacher": "Andy Shmit"
+  },
+  {
+    "classDept": "Pys Ed",
+    "classID": "PHY-201",
+    "classDescription": "Varsity Football",
+    "classTeacher": "Tom Brown"
+  },
+  {
+    "classDept": "Pys Ed",
+    "classID": "PHY-302",
+    "classDescription": "Varsity Volley Ball",
+    "classTeacher": "Tom Brown"
+  },
+  {
+    "classDept": "Pys Ed",
+    "classID": "PHY-405",
+    "classDescription": "Varsity Baseball",
+    "classTeacher": "Tom Brown"
+  },
+  {
+    "classDept": "Math",
+    "classID": "MAT-402",
+    "classDescription": "Senior Calculus",
+    "classTeacher": "Fred Flintstone"
+  },
+  {
+    "classDept": "Math",
+    "classID": "MAT-403",
+    "classDescription": "Trigonometry",
+    "classTeacher": "Fred Flintstone"
+  },
+  {
+    "classDept": "Music",
+    "classID": "MUS-106",
+    "classDescription": "Freshman Choir",
+    "classTeacher": "Kelsey Smith"
+  },
+  {
+    "classDept": "History",
+    "classID": "HIS-333",
+    "classDescription": "History of Asia",
+    "classTeacher": "Bernie Yeater"
+  },
+  {
+    "classDept": "Business",
+    "classID": "BUS-101",
+    "classDescription": "Introduction to Business",
+    "classTeacher": "Fred Flintstone"
+  },
+  {
+    "classDept": "Business",
+    "classID": "BUS-202",
+    "classDescription": "Business Ethics",
+    "classTeacher": "Fred Flintstone"
+  },
+  {
+    "classDept": "Business",
+    "classID": "BUS-301",
+    "classDescription": "Microeconomics",
+    "classTeacher": "Fred Flintstone"
+  },
+  {
+    "classDept": "Business",
+    "classID": "BUS-302",
+    "classDescription": "Macroeconomics",
+    "classTeacher": "Fred Flintstone"
+  },
+  {
+    "classDept": "Computer Information",
+    "classID": "CIS105",
+    "classDescription": "Java Programing Language",
+    "classTeacher": "Tom Smith"
+  },
+  {
+    "classDept": "Computer Information",
+    "classID": "CIS205",
+    "classDescription": "Python Programing Language",
+    "classTeacher": "Tom Smith"
+  },
+  {
+    "classDept": "Computer Information",
+    "classID": "CIS-206",
+    "classDescription": "C# Programing Language",
+    "classTeacher": "Tom Smith"
+  },
+  {
+    "classDept": "Music",
+    "classID": "MUS-102",
+    "classDescription": "Freshman Jazz Band",
+    "classTeacher": "Andy Shmit"
+  },
+  {
+    "classDept": "Music",
+    "classID": "MUS-103",
+    "classDescription": "Freshman Choir",
+    "classTeacher": "Andy Shmit"
+  },
+  {
+    "classDept": "Science",
+    "classID": "SCI-101",
+    "classDescription": "Introduction to Physical Science",
+    "classTeacher": "Kelsey Smith"
+  },
+  {
+    "classDept": "Science",
+    "classID": "SCI-201",
+    "classDescription": "Sophmore Physics",
+    "classTeacher": "Kelsey Smith"
+  },
+  {
+    "classDept": "History",
+    "classID": "HIS-402",
+    "classDescription": "History of Western Europe",
+    "classTeacher": "Kelsey Smith"
+  },
+  {
+    "classDept": "History",
+    "classID": "HIS-403",
+    "classDescription": "History of Eastern Europe",
+    "classTeacher": "Kelsey Smith"
+  }
+]

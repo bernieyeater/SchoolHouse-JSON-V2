@@ -1,0 +1,124 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+using Newtonsoft.Json;
+
+namespace List_Test_Forms
+        
+{
+    [Serializable]
+    class Student
+    {
+        public string firstName { get; set; }
+        public string lastName { get; set; }
+        public string grade { get; set; }
+
+        private List<string> AllLines = new List<string>();
+        List<Student> listOfUsers = new List<Student>();
+
+                public static List<User> FromJson(string json)
+        {
+            return JsonConvert.DeserializeObject<List<User>>(json);
+        }
+
+        //Getters & Setters
+        public string GetLastName(int i)
+        {
+            return listOfUsers[i].lastName;
+        }
+
+        public string GetFirstName(int i)
+        {
+            return listOfUsers[i].firstName;
+        }
+
+        public string GetGrade(int i)
+        {
+            return listOfUsers[i].grade;
+        }
+        public int GetCount()
+        {
+            return listOfUsers.Count;
+        }
+
+        //Methods
+        public void AddStudents(string fname, string lname, string sgrade)
+        {
+            listOfUsers.Add(new Student() { firstName = fname, lastName = lname, grade = sgrade });
+        }
+
+
+        public void WriteStudentsCSV()
+        {
+            var csv = new StringBuilder();
+            var file = @"C:\Users\bernieyeater\Students5.csv";
+            for (int i = 0; i < listOfUsers.Count(); i++)
+            {
+                var v01 = listOfUsers[i].firstName;
+                var v02 = listOfUsers[i].lastName;
+                var v03 = listOfUsers[i].grade;
+                //var v03 = listOfUsers[i].grade.ToString();
+                var newLine = string.Format("{0},{1},{2}", v01, v02, v03);
+                csv.AppendLine(newLine);
+            }
+            File.WriteAllText(file, csv.ToString());
+        }
+
+        public void ReadStudentsCSV()
+        { //Read the students from the CSV file
+            var path = @"C:\Users\bernieyeater\Students5.csv";
+            //Load each row of the CSV into a string array
+            using (StreamReader theFileRead = new StreamReader(path, Encoding.Default))
+            {
+                while (!theFileRead.EndOfStream)
+                {
+                    AllLines.Add(theFileRead.ReadLine());
+                }
+            }
+            string theRow = AllLines[0];
+            string theParse, v01, v02, v03;
+            int theParseLength = AllLines[0].Length;
+            int theCommaPos = 0;
+            int RowsInCSV = AllLines.Count;
+            string[] parseStr = new string[100];  // Reserve up to 100 atributes of student
+
+            //Parse each string of the list into the Student list.
+            for (int RowNum = 0; RowNum < RowsInCSV; RowNum++)
+            {
+                //Clear the parse before you load it.
+                parseStr[0] = "";
+                parseStr[1] = "";
+                parseStr[2] = "";
+                theRow = AllLines[RowNum];
+                for (int i3 = 0; i3 < theRow.Length; i3++)
+                { //Load each position of the road to check for the comma
+                    theParse = theRow.Substring(i3, 1);
+                    if (theParse == ",")
+                    {   //If it is a comman, then next parse
+                        theCommaPos++;
+                    }
+                    else
+                    {   //add each parse back where it belongs
+                        parseStr[theCommaPos] = parseStr[theCommaPos] + theParse;
+                    }
+                }
+                theCommaPos = 0;  //Reset the comman position for the next parse
+                v01 = parseStr[0]; //First detected parse, which is first name
+                v02 = parseStr[1]; //Second detected parse, which is last name
+                v03 = parseStr[2]; //Third detected parse, which is grade
+                                   //v04 = Convert.ToInt32(v03); Was thinking of using int for grade
+                listOfUsers.Add(new Student() { firstName = v01, lastName = v02, grade = v03 });
+            }
+        }
+        public static string ToJson(this List<Student> listOfUsers)
+        {
+         return JsonConvert.SerializeObject(listOfUsers, Formatting.Indented);
+         }
+
+
+    }
+}
+
