@@ -288,7 +288,7 @@
             // 
             this.lbStudentIDNo.AutoSize = true;
             this.lbStudentIDNo.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbStudentIDNo.Location = new System.Drawing.Point(270, 63);
+            this.lbStudentIDNo.Location = new System.Drawing.Point(287, 63);
             this.lbStudentIDNo.Name = "lbStudentIDNo";
             this.lbStudentIDNo.Size = new System.Drawing.Size(65, 20);
             this.lbStudentIDNo.TabIndex = 51;
